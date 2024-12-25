@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0BC8BF8F2D0F1F8B007233F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BC8BF762D0F1F87007233F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC8BF7D2D0F1F87007233F9;
+			remoteInfo = DrawMailer;
+		};
+		0BC8BF992D0F1F8B007233F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BC8BF762D0F1F87007233F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC8BF7D2D0F1F87007233F9;
+			remoteInfo = DrawMailer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BC8BF7E2D0F1F87007233F9 /* DrawMailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawMailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC8BF8E2D0F1F8B007233F9 /* DrawMailerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawMailerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC8BF982D0F1F8B007233F9 /* DrawMailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawMailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0BC8BF802D0F1F87007233F9 /* DrawMailer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DrawMailer;
+			sourceTree = "<group>";
+		};
+		0BC8BF912D0F1F8B007233F9 /* DrawMailerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DrawMailerTests;
+			sourceTree = "<group>";
+		};
+		0BC8BF9B2D0F1F8B007233F9 /* DrawMailerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DrawMailerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC8BF7B2D0F1F87007233F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF8B2D0F1F8B007233F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF952D0F1F8B007233F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC8BF752D0F1F87007233F9 = {
+			isa = PBXGroup;
+			children = (
+				0BC8BF802D0F1F87007233F9 /* DrawMailer */,
+				0BC8BF912D0F1F8B007233F9 /* DrawMailerTests */,
+				0BC8BF9B2D0F1F8B007233F9 /* DrawMailerUITests */,
+				0BC8BF7F2D0F1F87007233F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC8BF7F2D0F1F87007233F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC8BF7E2D0F1F87007233F9 /* DrawMailer.app */,
+				0BC8BF8E2D0F1F8B007233F9 /* DrawMailerTests.xctest */,
+				0BC8BF982D0F1F8B007233F9 /* DrawMailerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC8BF7D2D0F1F87007233F9 /* DrawMailer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC8BFA22D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailer" */;
+			buildPhases = (
+				0BC8BF7A2D0F1F87007233F9 /* Sources */,
+				0BC8BF7B2D0F1F87007233F9 /* Frameworks */,
+				0BC8BF7C2D0F1F87007233F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0BC8BF802D0F1F87007233F9 /* DrawMailer */,
+			);
+			name = DrawMailer;
+			packageProductDependencies = (
+			);
+			productName = DrawMailer;
+			productReference = 0BC8BF7E2D0F1F87007233F9 /* DrawMailer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BC8BF8D2D0F1F8B007233F9 /* DrawMailerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC8BFA52D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailerTests" */;
+			buildPhases = (
+				0BC8BF8A2D0F1F8B007233F9 /* Sources */,
+				0BC8BF8B2D0F1F8B007233F9 /* Frameworks */,
+				0BC8BF8C2D0F1F8B007233F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BC8BF902D0F1F8B007233F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BC8BF912D0F1F8B007233F9 /* DrawMailerTests */,
+			);
+			name = DrawMailerTests;
+			packageProductDependencies = (
+			);
+			productName = DrawMailerTests;
+			productReference = 0BC8BF8E2D0F1F8B007233F9 /* DrawMailerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BC8BF972D0F1F8B007233F9 /* DrawMailerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC8BFA82D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailerUITests" */;
+			buildPhases = (
+				0BC8BF942D0F1F8B007233F9 /* Sources */,
+				0BC8BF952D0F1F8B007233F9 /* Frameworks */,
+				0BC8BF962D0F1F8B007233F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BC8BF9A2D0F1F8B007233F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BC8BF9B2D0F1F8B007233F9 /* DrawMailerUITests */,
+			);
+			name = DrawMailerUITests;
+			packageProductDependencies = (
+			);
+			productName = DrawMailerUITests;
+			productReference = 0BC8BF982D0F1F8B007233F9 /* DrawMailerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC8BF762D0F1F87007233F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0BC8BF7D2D0F1F87007233F9 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0BC8BF8D2D0F1F8B007233F9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0BC8BF7D2D0F1F87007233F9;
+					};
+					0BC8BF972D0F1F8B007233F9 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0BC8BF7D2D0F1F87007233F9;
+					};
+				};
+			};
+			buildConfigurationList = 0BC8BF792D0F1F87007233F9 /* Build configuration list for PBXProject "DrawMailer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BC8BF752D0F1F87007233F9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0BC8BF7F2D0F1F87007233F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC8BF7D2D0F1F87007233F9 /* DrawMailer */,
+				0BC8BF8D2D0F1F8B007233F9 /* DrawMailerTests */,
+				0BC8BF972D0F1F8B007233F9 /* DrawMailerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC8BF7C2D0F1F87007233F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF8C2D0F1F8B007233F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF962D0F1F8B007233F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC8BF7A2D0F1F87007233F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF8A2D0F1F8B007233F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BC8BF942D0F1F8B007233F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BC8BF902D0F1F8B007233F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BC8BF7D2D0F1F87007233F9 /* DrawMailer */;
+			targetProxy = 0BC8BF8F2D0F1F8B007233F9 /* PBXContainerItemProxy */;
+		};
+		0BC8BF9A2D0F1F8B007233F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BC8BF7D2D0F1F87007233F9 /* DrawMailer */;
+			targetProxy = 0BC8BF992D0F1F8B007233F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC8BFA02D0F1F8B007233F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BC8BFA12D0F1F8B007233F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC8BFA32D0F1F8B007233F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawMailer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Want to save your drawing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BC8BFA42D0F1F8B007233F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrawMailer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Want to save your drawing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BC8BFA62D0F1F8B007233F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMailer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrawMailer";
+			};
+			name = Debug;
+		};
+		0BC8BFA72D0F1F8B007233F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawMailer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrawMailer";
+			};
+			name = Release;
+		};
+		0BC8BFA92D0F1F8B007233F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawMailer;
+			};
+			name = Debug;
+		};
+		0BC8BFAA2D0F1F8B007233F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7G3738S8R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rit.yw1688.DrawMailerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrawMailer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC8BF792D0F1F87007233F9 /* Build configuration list for PBXProject "DrawMailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8BFA02D0F1F8B007233F9 /* Debug */,
+				0BC8BFA12D0F1F8B007233F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC8BFA22D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8BFA32D0F1F8B007233F9 /* Debug */,
+				0BC8BFA42D0F1F8B007233F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC8BFA52D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8BFA62D0F1F8B007233F9 /* Debug */,
+				0BC8BFA72D0F1F8B007233F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC8BFA82D0F1F8B007233F9 /* Build configuration list for PBXNativeTarget "DrawMailerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC8BFA92D0F1F8B007233F9 /* Debug */,
+				0BC8BFAA2D0F1F8B007233F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC8BF762D0F1F87007233F9 /* Project object */;
+}
